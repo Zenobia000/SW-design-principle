@@ -20,7 +20,7 @@
 
 ### 第一階段: OOP 基礎 (Foundation)
 
-#### ✅ [01 - OOP 基礎概念](./01-OOP-基礎概念.md) ⭐ 必讀
+#### ✅ [01 - OOP 基礎概念](./01-Core-Concepts/01_OOP_Basics.md) ⭐ 必讀
 **學習重點:**
 - 什麼是 OOP? 為什麼需要 OOP?
 - Class vs Instance 的本質區別
@@ -34,13 +34,13 @@
 - 完整的購物車系統實作
 
 **現有教材參考:**
-- 📓 [python-object-oriented-programming.ipynb](./python-object-oriented-programming.ipynb)
+- ./01-Core-Concepts/06_Python_Object_Oriented_Programming.ipynb
 
 **學習時間:** 2-3 小時
 
 ---
 
-#### ✅ [02 - OOP 四大支柱](./02-OOP-四大支柱.md) ⭐ 必讀
+#### ✅ [02 - OOP 四大支柱](./01-Core-Concepts/02_Four_Pillars_of_OOP.md) ⭐ 必讀
 **學習重點:**
 - 封裝 (Encapsulation) - `@property`, getter/setter
 - 繼承 (Inheritance) - 程式碼重用與擴展
@@ -54,8 +54,8 @@
 - 完整電商系統實戰(整合四大支柱)
 
 **現有教材參考:**
-- 📓 [03-inheritance.ipynb](./03-inheritance.ipynb) - 火影忍者繼承範例
-- 📓 [04-abstract-Class.ipynb](./04-abstract-Class.ipynb) - 抽象類別
+- ./02-Advanced-Topics/01_Inheritance.ipynb
+- 📓 [04-abstract-Class.ipynb](./02-Advanced-Topics/05_Abstract_Classes.ipynb) - 抽象類別
 
 **學習時間:** 3-4 小時
 
@@ -68,31 +68,31 @@
 
 學習目標: 掌握Python獨特的OOP機制
 
-#### [03 - Python物件模型](./03-Python-Object-Model.md)
+#### [03 - Python物件模型](./03-Python-Specifics/02_Python_Object_Model.md)
 - Everything is an Object
 - type() vs isinstance()
 - Magic Methods (\_\_str\_\_, \_\_repr\_\_, \_\_add\_\_)
 - object-type-class三角關係
 
 **現有教材**:
-- 📓 [02-underline.ipynb](./02-underline.ipynb) - 底線命名與魔術方法
+- 📓 [02-underline.ipynb](./03-Python-Specifics/01_Underscore_Convention.ipynb) - 底線命名與魔術方法
 
-#### [04 - 命名空間與作用域](./04-Namespace-Scope.md)
+#### [04 - 命名空間與作用域](./01-Core-Concepts/03_Namespace_and_Scope.md)
 - LEGB規則
 - global vs nonlocal
 - 為什麼這很重要? (避免變數衝突)
 
 **現有教材**:
-- 📓 [01-name-space-and-scope.ipynb](./01-name-space-and-scope.ipynb)
+- 📓 [01-name-space-and-scope.ipynb](./01-Core-Concepts/04_Namespace_and_Scope.ipynb)
 
-#### [05 - 封裝的實踐](./05-Encapsulation-Practice.md)
+#### [05 - 封裝的實踐](./03-Python-Specifics/03_Underscore_Naming_Convention.md)
 - \_ (單底線) - protected
 - \_\_ (雙底線) - private
 - \_\_name\_\_ (dunder) - magic methods
 - @property 的進階用法
 
 **現有教材**:
-- 📓 [02-underline.ipynb](./02-underline.ipynb)
+- 📓 [02-underline.ipynb](./03-Python-Specifics/01_Underscore_Convention.ipynb)
 
 **與System Design的連結**:
 > 在設計API時,你需要明確哪些是公開介面 (public),哪些是內部實作 (private)。這直接對應到系統設計中的"封裝"概念。
@@ -103,7 +103,7 @@
 
 學習目標: 掌握Python進階OOP特性
 
-#### [06 - 繼承的深入探討](./06-Advanced-Inheritance.md)
+#### [06 - 繼承的深入探討](./02-Advanced-Topics/02_Advanced_Inheritance.md)
 - super()的正確用法
 - MRO (Method Resolution Order)
 - 多重繼承的陷阱與最佳實踐
@@ -112,33 +112,33 @@
 **現有教材**:
 - 📓 [03-inheritance.ipynb](./03-inheritance.ipynb)
 
-#### [07 - 元類與抽象類別](./07-Metaclass-ABC.md)
+#### [07 - 元類與抽象類別](./02-Advanced-Topics/04_Metaclasses_and_Abstract_Classes.md)
 - Metaclass概念
 - ABC (Abstract Base Class)
 - 為什麼需要抽象類別?
 - 實戰: API介面設計
 
 **現有教材**:
-- 📓 [03.1-meta-Class.ipynb](./03.1-meta-Class.ipynb)
+- 📓 [03.1-meta-Class.ipynb](./02-Advanced-Topics/03_Metaclasses.ipynb)
 - 📓 [04-abstract-Class.ipynb](./04-abstract-Class.ipynb)
 
-#### [08 - 裝飾器模式](./08-Decorators.md)
+#### [08 - 裝飾器模式](./02-Advanced-Topics/07_Decorator_Pattern.md)
 - @property, @classmethod, @staticmethod
 - 自訂裝飾器
 - 裝飾器的實用場景
 - functools.wraps
 
 **現有教材**:
-- 📓 [05-decorator.ipynb](./05-decorator.ipynb)
+- 📓 [05-decorator.ipynb](./02-Advanced-Topics/06_Decorators.ipynb)
 
-#### [09 - 迭代器與生成器](./09-Iterator-Generator.md)
+#### [09 - 迭代器與生成器](./03-Python-Specifics/05_Iterators_and_Generators.md)
 - \_\_iter\_\_ 與 \_\_next\_\_
 - yield關鍵字
 - 記憶體效率
 - 實戰: 大數據處理
 
 **現有教材**:
-- 📓 [06-iterator_and_generator.ipynb](./06-iterator_and_generator.ipynb)
+- 📓 [06-iterator_and_generator.ipynb](./03-Python-Specifics/04_Iterators_and_Generators.ipynb)
 
 **與System Design的連結**:
 > 生成器在處理大規模資料流時非常重要。在設計如Twitter Timeline、日誌處理系統時,你會用到這些技術來優化記憶體使用。
@@ -149,7 +149,7 @@
 
 學習目標: 將OOP應用於實際系統設計
 
-#### [10 - SOLID原則](./10-SOLID-Principles.md) ⭐⭐⭐ 核心
+#### [10 - SOLID原則](./04-Design-Principles/01_SOLID_Principles.md) ⭐⭐⭐ 核心
 - S - Single Responsibility (單一職責)
 - O - Open/Closed (開放封閉)
 - L - Liskov Substitution (里氏替換)
@@ -159,25 +159,25 @@
 **現有教材**:
 - 📂 [../System-design/SOLID/](../System-design/SOLID/) - 完整SOLID教材
 
-#### [11 - 設計模式入門](./11-Design-Patterns.md)
+#### [11 - 設計模式入門](./04-Design-Principles/02_Introduction_to_Design_Patterns.md)
 - 創建型模式: 工廠模式、單例模式
 - 結構型模式: 裝飾器模式、適配器模式
 - 行為型模式: 策略模式、觀察者模式
 
-#### [12 - Library vs Framework vs API](./12-Library-Framework-API.md)
+#### [12 - Library vs Framework vs API](./04-Design-Principles/03_Library_Framework_API.md)
 - 三者的差異
 - 如何設計Library
 - 如何設計API
 - 實戰範例
 
 **現有教材**:
-- 📓 [00-library-framework-API.ipynb](./00-library-framework-API.ipynb)
+- 📓 [00-library-framework-API.ipynb](./04-Design-Principles/04_Library_Framework_API.ipynb)
 
 ---
 
 ### 🚀 階段五: 銜接System Design (Bridge to System Design) - 1週
 
-#### [13 - 從OOP到System Design](./13-OOP-to-System-Design.md) ⭐⭐⭐ 橋接章節
+#### [13 - 從OOP到System Design](./04-Design-Principles/05_OOP_to_System_Design.md) ⭐⭐⭐ 橋接章節
 - OOP如何幫助系統設計?
 - 類別設計 vs 系統架構
 - 從Class Diagram到Architecture Diagram
