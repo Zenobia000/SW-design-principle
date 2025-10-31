@@ -1,48 +1,66 @@
 # Python OOP 速成課程
 
-> 從零基礎到系統設計的完整OOP學習路徑
+> 從零開始掌握 Python 物件導向程式設計,為 System Design 打下堅實基礎
 
 ## 🎯 課程目標
 
-本課程將帶你從Python OOP基礎,逐步進階到能夠運用SOLID原則設計大型系統。這是通向System Design的第一步,也是最重要的基礎。
+本課程採用**大學教科書導向**的教學方式,以**電商系統**作為貫穿全課程的實戰專案,系統化地學習 Python OOP,並最終銜接到 System Design。
 
 **學完本課程你將能夠**:
-- ✅ 深入理解OOP四大支柱 (封裝、繼承、多型、抽象)
-- ✅ 掌握Python特有的OOP特性 (魔術方法、裝飾器、迭代器)
-- ✅ 應用SOLID原則設計可維護的代碼
-- ✅ 理解OOP如何幫助構建大型系統
-- ✅ 為System Design面試打下堅實基礎
+- ✅ 深入理解 OOP 四大支柱 (封裝、繼承、多型、抽象)
+- ✅ 掌握 Python 特有的 OOP 特性 (魔術方法、裝飾器、迭代器)
+- ✅ 應用 SOLID 原則設計可維護的程式碼
+- ✅ 運用設計模式解決常見問題
+- ✅ 理解 OOP 如何幫助構建大型系統
+- ✅ 為 System Design 面試打下堅實基礎
 
 ---
 
 ## 📚 課程結構
 
-### 🟢 階段一: OOP基礎 (Foundation) - 2週
+### 第一階段: OOP 基礎 (Foundation)
 
-學習目標: 建立紮實的OOP基礎概念
+#### ✅ [01 - OOP 基礎概念](./01-OOP-基礎概念.md) ⭐ 必讀
+**學習重點:**
+- 什麼是 OOP? 為什麼需要 OOP?
+- Class vs Instance 的本質區別
+- 屬性與方法的定義與使用
+- `__init__` 與 `self` 的作用
+- **實戰:** 設計電商系統的 Product 和 ShoppingCart 類別
 
-#### [01 - OOP核心概念](./01-OOP-Core-Concepts.md) ⭐ 必讀
-- 什麼是物件導向程式設計?
-- 類別 vs 實例 vs 物件
-- 屬性與方法
-- `__init__` 與 self
-- 實戰: 設計一個簡單的系統
+**章節亮點:**
+- 從程序式編程到 OOP 的思維轉換
+- 類別屬性 vs 實例屬性的深入剖析
+- 完整的購物車系統實作
 
-**現有教材**:
-- 📓 [python-object-oriented-programming.ipynb](./python-object-oriented-programming.ipynb) - 核心OOP概念
+**現有教材參考:**
+- 📓 [python-object-oriented-programming.ipynb](./python-object-oriented-programming.ipynb)
 
-#### [02 - OOP四大支柱](./02-OOP-Four-Pillars.md) ⭐ 必讀
-- 封裝 (Encapsulation) - 資料隱藏與@property
-- 繼承 (Inheritance) - 程式碼重用
-- 多型 (Polymorphism) - 統一介面
-- 抽象 (Abstraction) - ABC與abstractmethod
+**學習時間:** 2-3 小時
 
-**現有教材**:
-- 📓 [03-inheritance.ipynb](./03-inheritance.ipynb) - 繼承詳解 (火影忍者範例)
+---
+
+#### ✅ [02 - OOP 四大支柱](./02-OOP-四大支柱.md) ⭐ 必讀
+**學習重點:**
+- 封裝 (Encapsulation) - `@property`, getter/setter
+- 繼承 (Inheritance) - 程式碼重用與擴展
+- 多型 (Polymorphism) - 統一介面,不同實作
+- 抽象 (Abstraction) - ABC, abstractmethod
+
+**章節亮點:**
+- 從火影忍者學繼承(Uchiha vs Uzumaki)
+- 支付系統的多型應用
+- 資料庫連接的抽象設計
+- 完整電商系統實戰(整合四大支柱)
+
+**現有教材參考:**
+- 📓 [03-inheritance.ipynb](./03-inheritance.ipynb) - 火影忍者繼承範例
 - 📓 [04-abstract-Class.ipynb](./04-abstract-Class.ipynb) - 抽象類別
 
+**學習時間:** 3-4 小時
+
 **為什麼這很重要?**
-> 這四大支柱是設計可維護、可擴展系統的基礎。在System Design中,你會用這些原則設計微服務、API和系統組件。
+> 這四大支柱是設計可維護、可擴展系統的基礎。在 System Design 中,你會用這些原則設計微服務、API 和系統組件。
 
 ---
 
